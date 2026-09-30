@@ -2,34 +2,45 @@
 
 # Domain Context Mapping
 You need to identify the main entities and bounded contexts.
+
 A. Patient Management
 Bounded Context: Patient Management
+
 Main entities:
 •	Patient 
 •	Appointment 
 •	Doctor 
 •	Medical Record 
 •	Contact Information 
+
 Purpose:
 Manages patient information and appointments.
+
 B. Billing & Insurance Claims
+
 Bounded Context: Billing & Insurance Claims
+
 Main entities:
 •	Bill 
 •	Payment 
 •	Insurance Claim 
 •	Insurance Provider 
 •	Invoice 
+
 Purpose:
 Manages patient bills, payments, and insurance claims
+
 C. Lab Test Diagnostics
+
 Bounded Context: Lab Test Diagnostics
+
 Main entities:
 •	Lab Test 
 •	Test Order 
 •	Test Result 
 •	Laboratory 
 •	Technician 
+
 Purpose:
 Manages laboratory tests and their results
 
